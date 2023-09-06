@@ -1,0 +1,35 @@
+#########################[ CodeMito ]###############################
+##                                                                ##
+##                    www.codeplugins.com.br                      ##
+##                                                                ##
+####################################################################
+
+#Permissoes:
+#codemito.admin - Setar mito
+
+TopMito:
+    Name: 'Top Mitos do servidor'
+    Icone:
+      Name: '&a{position} &7- &f{player}'
+      Lore:
+      - ''
+      - ' &eVezes: &f{quantia}'
+      - ''
+
+Configuracoes:
+ Tag: "&5[Mito]"
+ Hologram-Altura: 3.0
+ Hologramas:
+  - "&5[Mito do PvP]"
+  - "&7   {mito}"
+ ExecutarComandos: true
+ Comandos:
+  - "money add {player} 50000"
+
+Mensagens:
+ SetMito: "&5[MITO] &7O jogador {player} e o novo mito do pvp !"
+ NoHavePermission: "&cVoce nao possui permissao."
+ Mito: "&5[MITO] &7O mito do pvp e o jogador {mito}."
+ NewMito: "&5[MITO] &7O jogador {died} perdeu o mito para o jogador {killed}."
+
+Local: {}

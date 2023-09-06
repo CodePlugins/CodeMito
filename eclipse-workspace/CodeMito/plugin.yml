@@ -1,0 +1,5 @@
+name: CodeMito
+main: br.com.codeplugins.mito.Main
+version: 1.0
+depend: [Citizens,HolographicDisplays]
+softdepend: [LegendChat]
